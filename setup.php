@@ -22,9 +22,9 @@ function plugin_version_opmanager() {
    return [
       'name'           => 'OPManager Integration',
       'version'        => '1.0.0',
-      'author'         => 'dhamar',
+      'author'         => 'sigit',
       'license'        => 'GPL v2+',
-      'homepage'       => 'https://github.com/umardhanu/glpi-opmanager',
+      'homepage'       => 'https://github.com/sigitpurnomorepo/glpi-opmanager',
       'requirements'   => [
          'glpi' => [
             'min' => '10.0.0',
@@ -92,3 +92,4 @@ function plugin_init_opmanager() {
    // Add webhook endpoint
    $PLUGIN_HOOKS['webhook']['opmanager'] = 'PluginOpmanagerWebhook::handleWebhook';
 }
+
