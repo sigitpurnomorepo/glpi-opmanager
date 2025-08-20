@@ -1,5 +1,5 @@
 {
-    "name": "yourusername/glpi-opmanager",
+    "name": "sigitpurnomorepo/glpi-opmanager",
     "description": "GLPI OPManager Integration Plugin - Bidirectional integration between GLPI and OPManager for automated ticket creation and synchronization",
     "type": "glpi-plugin",
     "license": "GPL-2.0-or-later",
@@ -16,9 +16,9 @@
     ],
     "authors": [
         {
-            "name": "Your Name",
-            "email": "your.email@example.com",
-            "homepage": "https://github.com/yourusername"
+            "name": "Sigit",
+            "email": "sigitoffice.jkt@gmail.com",
+            "homepage": "https://github.com/sigitpurnomorepo"
         }
     ],
     "require": {
@@ -62,7 +62,7 @@
             "name": "OPManager Integration",
             "version": "1.0.0",
             "license": "GPL v2+",
-            "homepage": "https://github.com/yourusername/glpi-opmanager",
+            "homepage": "https://github.com/sigitpurnomorepo/glpi-opmanager",
             "requirements": {
                 "glpi": {
                     "min": "10.0.0",
@@ -74,9 +74,10 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/yourusername/glpi-opmanager"
+            "url": "https://github.com/sigitpurnomorepo/glpi-opmanager"
         }
     ],
     "minimum-stability": "stable",
     "prefer-stable": true
 }
+
