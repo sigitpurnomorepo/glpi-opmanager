@@ -1,0 +1,58 @@
+=== PLUGIN GLPI OPManager - PANDUAN UPLOAD KE GITHUB ===
+
+LANGKAH 1: BUAT REPOSITORY DI GITHUB
+- Buka https://github.com/new
+- Nama Repository: glpi-opmanager
+- Deskripsi: GLPI OPManager Integration Plugin
+- Pilih Public atau Private sesuai preferensi
+- JANGAN centang "Add a README file"
+- Klik "Create repository"
+
+LANGKAH 2: UPLOAD FILE-FILE PLUGIN
+
+Opsi A: Menggunakan Git (jika tersedia)
+1. git init
+2. git add .
+3. git commit -m "Initial commit: GLPI OPManager Integration Plugin"
+4. git branch -M main
+5. git remote add origin https://github.com/USERNAME/glpi-opmanager.git
+6. git push -u origin main
+
+Opsi B: Upload Manual
+1. Drag and drop semua file dari folder ini ke GitHub
+2. Atau gunakan GitHub Desktop: https://desktop.github.com/
+
+LANGKAH 3: VERIFIKASI FILE YANG TERUPLOAD
+Pastikan file berikut ada di repository:
+✓ setup.php
+✓ inc/ (folder dengan semua class)
+✓ front/ (folder dengan endpoint)
+✓ sql/ (folder dengan database schema)
+✓ docs/ (folder dengan dokumentasi)
+✓ composer.json
+✓ README.md
+✓ LICENSE
+✓ hook.php
+✓ index.php
+✓ css/opmanager.css
+✓ js/opmanager.js
+✓ locales/ (folder dengan file bahasa)
+
+INFORMASI PLUGIN:
+- Nama: GLPI OPManager Integration Plugin
+- Versi: 1.0.0
+- Lisensi: GPL v2+
+- Deskripsi: Plugin integrasi bidirectional antara GLPI dan OPManager
+
+FITUR UTAMA:
+• Auto Ticket Creation dari OPManager alarms
+• Bidirectional Sync antara GLPI dan OPManager
+• Custom Fields untuk informasi OPManager
+• Retry Mechanism untuk webhook yang gagal
+• Logging dan Monitoring lengkap
+• Interface konfigurasi yang mudah digunakan
+
+CATATAN:
+- Ganti USERNAME dengan username GitHub Anda
+- Pastikan semua file terupload dengan benar
+- Setelah upload, repository siap digunakan

@@ -1,0 +1,211 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI OPManager Integration Plugin 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-15 10:00+0000\n"
+"PO-Revision-Date: 2024-01-15 10:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "OPManager Integration"
+msgstr "OPManager Integration"
+
+msgid "OPManager Configuration"
+msgstr "OPManager Configuration"
+
+msgid "OPManager Server"
+msgstr "OPManager Server"
+
+msgid "OPManager Port"
+msgstr "OPManager Port"
+
+msgid "OPManager Username"
+msgstr "OPManager Username"
+
+msgid "OPManager Password"
+msgstr "OPManager Password"
+
+msgid "Webhook Secret Key"
+msgstr "Webhook Secret Key"
+
+msgid "Webhook URL"
+msgstr "Webhook URL"
+
+msgid "Default Entity"
+msgstr "Default Entity"
+
+msgid "Default Request Type"
+msgstr "Default Request Type"
+
+msgid "Default Category"
+msgstr "Default Category"
+
+msgid "Enable Bidirectional Sync"
+msgstr "Enable Bidirectional Sync"
+
+msgid "Sync Interval (minutes)"
+msgstr "Sync Interval (minutes)"
+
+msgid "Max Retry Attempts"
+msgstr "Max Retry Attempts"
+
+msgid "Retry Delay (minutes)"
+msgstr "Retry Delay (minutes)"
+
+msgid "Custom Fields Mapping"
+msgstr "Custom Fields Mapping"
+
+msgid "Save"
+msgstr "Save"
+
+msgid "Test Connection"
+msgstr "Test Connection"
+
+msgid "Test OPManager Connection"
+msgstr "Test OPManager Connection"
+
+msgid "Connection successful"
+msgstr "Connection successful"
+
+msgid "Connection failed with HTTP code: %d"
+msgstr "Connection failed with HTTP code: %d"
+
+msgid "Please fill in server, username and password first"
+msgstr "Please fill in server, username and password first"
+
+msgid "Testing connection..."
+msgstr "Testing connection..."
+
+msgid "Connection test failed"
+msgstr "Connection test failed"
+
+msgid "Configuration updated successfully"
+msgstr "Configuration updated successfully"
+
+msgid "Invalid alarm data"
+msgstr "Invalid alarm data"
+
+msgid "Ticket already exists for this alarm"
+msgstr "Ticket already exists for this alarm"
+
+msgid "Ticket created successfully"
+msgstr "Ticket created successfully"
+
+msgid "Failed to create ticket"
+msgstr "Failed to create ticket"
+
+msgid "OPManager Alarm Details"
+msgstr "OPManager Alarm Details"
+
+msgid "Device:"
+msgstr "Device:"
+
+msgid "Severity:"
+msgstr "Severity:"
+
+msgid "Message:"
+msgstr "Message:"
+
+msgid "Timestamp:"
+msgstr "Timestamp:"
+
+msgid "Additional Information"
+msgstr "Additional Information"
+
+msgid "OPManager Alarm: %s - %s"
+msgstr "OPManager Alarm: %s - %s"
+
+msgid "No ticket found for this alarm"
+msgstr "No ticket found for this alarm"
+
+msgid "Ticket resolved successfully"
+msgstr "Ticket resolved successfully"
+
+msgid "Failed to resolve ticket"
+msgstr "Failed to resolve ticket"
+
+msgid "Alarm cleared in OPManager at %s"
+msgstr "Alarm cleared in OPManager at %s"
+
+msgid "Acknowledgment processed successfully"
+msgstr "Acknowledgment processed successfully"
+
+msgid "Alarm acknowledged in OPManager at %s"
+msgstr "Alarm acknowledged in OPManager at %s"
+
+msgid "Ticket updated successfully"
+msgstr "Ticket updated successfully"
+
+msgid "Failed to update ticket"
+msgstr "Failed to update ticket"
+
+msgid "Alarm updated in OPManager at %s"
+msgstr "Alarm updated in OPManager at %s"
+
+msgid "Cannot acknowledge alarm: OPManager configuration missing"
+msgstr "Cannot acknowledge alarm: OPManager configuration missing"
+
+msgid "Alarm acknowledged in OPManager successfully"
+msgstr "Alarm acknowledged in OPManager successfully"
+
+msgid "Failed to acknowledge alarm in OPManager"
+msgstr "Failed to acknowledge alarm in OPManager"
+
+msgid "Bidirectional sync is disabled"
+msgstr "Bidirectional sync is disabled"
+
+msgid "OPManager configuration missing"
+msgstr "OPManager configuration missing"
+
+msgid "Alarm updated successfully"
+msgstr "Alarm updated successfully"
+
+msgid "GLPI Ticket Status: %s"
+msgstr "GLPI Ticket Status: %s"
+
+msgid "Priority: %s"
+msgstr "Priority: %s"
+
+msgid "Urgency: %s"
+msgstr "Urgency: %s"
+
+msgid "Impact: %s"
+msgstr "Impact: %s"
+
+msgid "Solution: %s"
+msgstr "Solution: %s"
+
+msgid "Resolved: %s"
+msgstr "Resolved: %s"
+
+msgid "Sync tickets between GLPI and OPManager"
+msgstr "Sync tickets between GLPI and OPManager"
+
+msgid "Sync interval (minutes)"
+msgstr "Sync interval (minutes)"
+
+msgid "Retry failed webhook deliveries"
+msgstr "Retry failed webhook deliveries"
+
+msgid "Retry delay (minutes)"
+msgstr "Retry delay (minutes)"
+
+msgid "Invalid webhook data format"
+msgstr "Invalid webhook data format"
+
+msgid "Unknown event type"
+msgstr "Unknown event type"
+
+msgid "Missing required field: %s"
+msgstr "Missing required field: %s"
+
+msgid "Invalid event type: %s"
+msgstr "Invalid event type: %s"
+
+msgid "Invalid severity: %s"
+msgstr "Invalid severity: %s"
